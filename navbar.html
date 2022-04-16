@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+</head>
+<style>
+    #container{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 100px;
+        justify-content: space-between;
+        background-color: #1c2839;
+        border-radius: 4px;
+    }
+    #left{
+        color: white;
+        padding: 15px;
+    }
+    #rigth{
+        align-self: center;
+        margin-top: 15px;
+    }
+    #rigth> a{
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div id="container">
+        <div id="left">
+            <h1>
+                MEGAWIDTH
+            </h1>
+        </div>
+        <div id="rigth">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Blog</a>
+            <a href="">Page&#x25BC;</a>
+        </div>
+    </div>
+</body>
+</html>
